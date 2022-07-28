@@ -1,0 +1,40 @@
+{% extends 'index2.html' %}
+
+{% block mycode %}
+{% for blog in blogs %}
+
+<div class="container-3">
+  <div class="pblogs-id">
+    <div class="padding">
+      <img class="social-icons" src="http://russelnicosia.com/static/blog-svgrepo-com.svg">
+    </div>
+    <div class="padding">
+      Blog Post#: {{ blog.id }}
+    </div>
+  </div>
+  <div class="pblogs-title">
+    <h2>{{ blog.title }}</h2>
+  </div>
+  <div class="pblogs-summary">
+    <div class="padding">
+      <img class="social-icons" src="http://russelnicosia.com/static/summary-svgrepo-com.svg">
+    </div>
+    <div class="padding">
+      <p>{{ blog.summary }}</p>
+    </div>
+  </div>
+  <br>
+  <div class="pblogs">
+    <img src={{ blog.img_url }}>
+  </div>
+  <br>
+  <div class="pblogs">
+    <a href="{% url 'blog_detail2' blog.slug %}" class="linkblogs">Continue reading</a>
+  </div>
+</div>
+<br>
+<br>
+
+{% endfor %}
+{% endblock %}
+

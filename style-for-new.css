@@ -1,0 +1,388 @@
+body{
+    background-color: #202626;
+    font-family: Gill Sans, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6em;
+}
+
+.p1{
+    color: #a44e1d;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+}
+
+section{
+    display: flex;
+}
+
+.section1{
+    background-image: url('https://russelnicosia.com/static/bg-mountain-op.JPG');
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    align-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.section2{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 50px;
+}
+
+header{
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 600px;
+}
+
+main{
+    display: flex;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    color: #a44e1d;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12px;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+}
+
+.container-1{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.container-2{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.container-3{
+    border: 3px;
+    border-style: solid;
+    border-color: #edb99b;
+    background-color: #60586c;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: -7px 3px 20px 8px #6f4625;
+    width: 75%;
+}
+
+
+@media (min-width: 576px) {
+  .container-3, .container-2, .container-1, .container, body, header, main, footer, section, .section1, .section2, {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container-3, .container-2, .container-1, .container, body, header, main, footer, section, .section1, .section2, {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container-3, .container-2, .container-1, .container, body, header, main, footer, section, .section1, .section2, {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-3, .container-2, .container-1, .container, body, header, main, footer, section, .section1, .section2, {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container-3, .container-2, .container-1, .container, body, header, main, footer, section, .section1, .section2, {
+    max-width: 1320px;
+  }
+}
+
+.pblogs{
+    color: #edb99b;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.pblogs-id{
+    color: #cb672c;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 22px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-decoration: underline;
+    border-bottom: 5px solid #6f4625;
+    font-weight: 700;
+}
+
+.pblogs-title{
+    color: #cb672c;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 26px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-weight: 700;
+}
+
+.pblogs-summary{
+    color: #edb99b;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.linkblogs{
+    color: #85a950;
+    font-weight: 700;
+}
+
+.linkblogs:hover{
+    color: #3c4c24;
+    font-weight: 700;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.social-icons{
+    height: 50px;
+    width: 50px;
+    padding: 2px;
+}
+
+
+.social-icons2{
+    height: 35px;
+    width: 35px;
+}
+
+
+.padding{
+    padding: 5px;
+}
+
+.flex-item:nth-child(1) {
+    align-self: auto;
+    padding: 15px;
+    }
+
+.flex-item:nth-child(2) {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    align-self: auto;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 55px;
+    }
+
+.flex-item:nth-child(3) {
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    padding: 15px;
+    }
+
+
+container-4{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 75%;
+}
+
+
+.flex-item2{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    color: #cb672c;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+.h4-summary{
+    color: #cb672c;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+
+.divbar {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 20px;
+    opacity: .4;
+}
+
+
+.divbutton{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    height: 40px;
+    width: 150px;
+    border-top: 5px solid #6f4625;
+    border-bottom: 5px solid #6f4625;
+}
+
+.divbutton:hover{
+    background-color: #bfc8c9;
+    border-top: 5px solid #3c4c24;
+    border-bottom: 5px solid #3c4c24;
+}
+
+.buttonurl{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    color: #3c1c0a;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.buttonurl:hover{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    color: #a44e1d;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.button-icons{
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+}
+
+.blog-container1{
+    display: flex;
+    align-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.blog-icons{
+    height: 35px;
+    width: 35px;
+}
+
+
+.blog-res1{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: url(https://russelnicosia.com/static/summary-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    background-size: 75px 75px;
+    font-family: "Times New Roman", Times, serif;
+    color: #cb672c;
+    font-weight: 700;
+    padding: 2px;
+    border-right: 5px solid #6f4625;
+    height: 100%;
+}
+
+.blog-res2{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: url(https://russelnicosia.com/static/learning-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    background-size: 75px 75px;
+    font-family: "Times New Roman", Times, serif;
+    color: #cb672c;
+    font-weight: 700;
+    padding: 7px;
+    border-right: 5px solid #6f4625;
+    height: 100%;
+}
+/* create class 
+.container-1 > *{
+    flex-grow: 1;
+}
+https://icolorpalette.com/download/palette/533640_color_palette.jpg
+colors
+#6f4625
+#94a4a5
+#a44e1d
+#3c4c24
+#60586c

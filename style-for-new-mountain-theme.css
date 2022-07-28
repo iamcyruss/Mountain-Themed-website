@@ -1,0 +1,177 @@
+body{
+    background-color: #202626;
+    font-family: Gill Sans, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6em;
+}
+
+.p1{
+    color: #a44e1d;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+}
+
+section{
+    display: flex;
+}
+
+.section1{
+    background-image: url('https://russelnicosia.com/static/bg-mountain.JPG');
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    align-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section2{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 50px;
+}
+
+header{
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 800px;
+}
+
+main{
+    display: flex;
+}
+
+footer{
+    display: flex;
+}
+
+.container{
+    display: flex;
+}
+
+.container-1{
+    display: flex;
+    align-items: center;
+}
+
+.container-2{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.container-3{
+    border: 3px;
+    border-style: solid;
+    border-color: #6f4625;
+    background-color: #60586c;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.pblogs{
+    color: #edb99b;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.pblogs-id{
+    color: #edb99b;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-decoration: underline;
+    border-bottom: 5px solid #6f4625;
+    font-weight: 700;
+}
+
+.pblog-title{
+    color: #edb99b;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 26px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-weight: 700;
+}
+
+.linkblogs{
+    color: #85a950;
+}
+
+.linkblogs:hover{
+    color: #3c4c24;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.social-icons{
+    height: 50px;
+    width: 50px;
+    padding: 2px;
+}
+
+.flex-item:nth-child(1) {
+    align-self: auto;
+    padding: 15px;
+    }
+
+.flex-item:nth-child(2) {
+    align-self: auto;
+    }
+
+.flex-item:nth-child(3) {
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    padding: 15px;
+    }
+
+/* create class 
+.container-1 > *{
+    flex-grow: 1;
+}
+https://icolorpalette.com/download/palette/533640_color_palette.jpg
+colors
+#6f4625
+#94a4a5
+#a44e1d
+#3c4c24
+#60586c

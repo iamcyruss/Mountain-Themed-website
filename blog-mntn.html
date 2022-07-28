@@ -1,0 +1,47 @@
+{% extends 'index2.html' %}
+
+{% block mycode %}
+
+<div class="container-3">
+  <div class="pblogs-id">
+    <div class="padding">
+      <img class="social-icons" src="http://russelnicosia.com/static/blog-svgrepo-com.svg">
+    </div>
+    <div class="padding">
+      Blog Post#: {{ blog.id }}
+    </div>
+  </div>
+  <div class="pblogs-title">
+    <h2>{{ blog.title }}</h2>
+  </div>
+  <div class="pblogs-summary">
+    <div class="blog-container1">
+      <div class="blog-res1">
+        <p>Summary: </p>
+      </div>
+    </div>
+    <div class="padding">
+      <p>{{ blog.summary }}</p>
+    </div>
+  </div>
+  <div class="pblogs-summary">
+    <div class="blog-container1">
+      <div class="blog-res2">
+        <p>Learned: </p>
+      </div>
+    </div>
+    <div class="padding">
+      <p>{{ blog.learned }}</p>
+    </div>
+  </div>
+  <br>
+  <div class="pblogs">
+    <img src={{ blog.img_url }}>
+  </div>
+  <br>
+  <div class="pblogs">
+    <a href={{ blog.git_url }} class="linkblogs" target="_blank" >Github</a>
+  </div>
+</div>
+
+{% endblock %}

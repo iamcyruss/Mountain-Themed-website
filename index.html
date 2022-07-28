@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <link rel="shortcut icon" type="image/jpg" href="../../static/favicon.ico"/>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Professional Portfolio</title>
+      <link rel='stylesheet' type='text/css' media='screen' href='https://russelnicosia.com/static/css/style.css'>
+  </head>
+  <body style="background-color:Gainsboro;">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="https://russelnicosia.com">RN</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor03">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/blog">My Coding Journey</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/aboutme">About Me</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br>
+
+  {% block mymessage %}
+  {% endblock %}
+
+    <br>
+    <div class="container mh-100">
+  <footer id="footer">
+        <div class="row">
+          <div class="list-group w-25">
+              <table>
+                <tbody>
+                  <tr>
+                    <td width="5%"><a href="https://www.linkedin.com/in/russ-nicosia/" class="list-group-item list-group-item-action">LinkedIn</a></td>
+                    <td width="5%"><a href="https://twitter.com/" class="list-group-item list-group-item-action">Twitter</a></td>
+                  </tr>
+                  <tr>
+                    <td width="5%"><a href="https://www.instagram.com/teamjenruss/" class="list-group-item list-group-item-action">Instagram</a></td>
+                    <td width="5%"><a href="https://www.youtube.com/channel/UCDqmMFWI-94JwogpFjTlFUg" class="list-group-item list-group-item-action">Youtube</a></td>
+                  </tr>
+                  <tr>
+                    <td width="5%"><a href="https://github.com/iamcyruss" class="list-group-item list-group-item-action">GitHub</a></td>
+                    <td width="5%"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="list-group-item list-group-item-action">Facebook</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            <p>Made by <a href="emailto:russelnicosia@gmail.com?subject = 'Site Feedback'">Russel Nicosia</a>.</p>
+            <p>Theme is called Vapor by <a href="https://bootswatch.com/vapor/">bootswatch</a>.</p>
+
+          </div>
+        </div>
+    <a href="/admin" target="_blank" class="linkhover link-dark">Admin</a>
+      </footer>
+      </div>
+  </body>
+</html>
